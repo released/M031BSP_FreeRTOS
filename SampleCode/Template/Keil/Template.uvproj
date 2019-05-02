@@ -377,7 +377,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Library\CMSIS\Include;..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\Library\StdDriver\inc;..\..\..\ThirdParty\FreeRTOS\Source\include;..\..\..\ThirdParty\FreeRTOS\Demo\Common\include;..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0;..\..\..\ThirdParty\FreeRTOS;..\..\Template</IncludePath>
+              <IncludePath>..\..\..\Library\CMSIS\Include;..\..\..\Library\Device\Nuvoton\M031\Include;..\..\..\Library\StdDriver\inc;..\..\..\ThirdParty\FreeRTOS\Source\include;..\..\..\ThirdParty\FreeRTOS\Demo\Common\include;..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0;..\..\..\ThirdParty\FreeRTOS;..\..\Template;..\CPU</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -595,6 +595,16 @@
               <FileName>croutine.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\ThirdParty\FreeRTOS\Source\croutine.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>CPU</GroupName>
+          <Files>
+            <File>
+              <FileName>cpu_utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CPU\cpu_utils.c</FilePath>
             </File>
           </Files>
         </Group>

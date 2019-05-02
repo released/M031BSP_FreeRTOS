@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (..\..\..\Library\Device\Nuvoton\M031\Source\system_M031Series.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\system_m031series.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_m031series.crf --depend .\obj\system_m031series.d)
+F (..\..\..\Library\Device\Nuvoton\M031\Source\system_M031Series.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\system_m031series.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_m031series.crf --depend .\obj\system_m031series.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
@@ -52,7 +52,7 @@ I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
 F (..\..\..\Library\Device\Nuvoton\M031\Source\ARM\startup_M031Series.s)(0x5CB83200)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526"--list .\lst\startup_m031series.lst --xref -o .\obj\startup_m031series.o --depend .\obj\startup_m031series.d)
-F (..\..\..\Library\StdDriver\src\retarget.c)(0x5C91B91B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\retarget.o --list_dir ".\\lst\\" --list --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+F (..\..\..\Library\StdDriver\src\retarget.c)(0x5C91B91B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\retarget.o --list_dir ".\\lst\\" --list --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
@@ -104,7 +104,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\uart.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+F (..\..\..\Library\StdDriver\src\uart.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
@@ -156,7 +156,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\clk.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\clk.o --list_dir ".\\lst\\" --list --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+F (..\..\..\Library\StdDriver\src\clk.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\clk.o --list_dir ".\\lst\\" --list --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -206,7 +206,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\acmp.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\acmp.o --list_dir ".\\lst\\" --list --omf_browse .\obj\acmp.crf --depend .\obj\acmp.d)
+F (..\..\..\Library\StdDriver\src\acmp.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\acmp.o --list_dir ".\\lst\\" --list --omf_browse .\obj\acmp.crf --depend .\obj\acmp.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -256,7 +256,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\adc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\adc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+F (..\..\..\Library\StdDriver\src\adc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\adc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -306,7 +306,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\crc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\crc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\crc.crf --depend .\obj\crc.d)
+F (..\..\..\Library\StdDriver\src\crc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\crc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\crc.crf --depend .\obj\crc.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -357,7 +357,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\ebi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\ebi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\ebi.crf --depend .\obj\ebi.d)
+F (..\..\..\Library\StdDriver\src\ebi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\ebi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\ebi.crf --depend .\obj\ebi.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -408,7 +408,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\fmc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\fmc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\fmc.crf --depend .\obj\fmc.d)
+F (..\..\..\Library\StdDriver\src\fmc.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\fmc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\fmc.crf --depend .\obj\fmc.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
@@ -460,7 +460,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\gpio.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\gpio.o --list_dir ".\\lst\\" --list --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+F (..\..\..\Library\StdDriver\src\gpio.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\gpio.o --list_dir ".\\lst\\" --list --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -510,7 +510,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\i2c.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+F (..\..\..\Library\StdDriver\src\i2c.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -560,7 +560,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\pdma.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\pdma.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pdma.crf --depend .\obj\pdma.d)
+F (..\..\..\Library\StdDriver\src\pdma.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\pdma.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pdma.crf --depend .\obj\pdma.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -610,7 +610,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\pwm.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\pwm.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pwm.crf --depend .\obj\pwm.d)
+F (..\..\..\Library\StdDriver\src\pwm.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\pwm.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pwm.crf --depend .\obj\pwm.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -661,7 +661,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\spi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\spi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+F (..\..\..\Library\StdDriver\src\spi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\spi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -711,7 +711,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\sys.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\sys.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+F (..\..\..\Library\StdDriver\src\sys.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\sys.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -761,7 +761,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\timer.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\timer.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+F (..\..\..\Library\StdDriver\src\timer.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\timer.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -811,7 +811,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\usbd.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usbd.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usbd.crf --depend .\obj\usbd.d)
+F (..\..\..\Library\StdDriver\src\usbd.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usbd.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usbd.crf --depend .\obj\usbd.d)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
@@ -863,7 +863,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\usci_i2c.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_i2c.crf --depend .\obj\usci_i2c.d)
+F (..\..\..\Library\StdDriver\src\usci_i2c.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_i2c.crf --depend .\obj\usci_i2c.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -913,7 +913,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\usci_spi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_spi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_spi.crf --depend .\obj\usci_spi.d)
+F (..\..\..\Library\StdDriver\src\usci_spi.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_spi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_spi.crf --depend .\obj\usci_spi.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -963,7 +963,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\usci_uart.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_uart.crf --depend .\obj\usci_uart.d)
+F (..\..\..\Library\StdDriver\src\usci_uart.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\usci_uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\usci_uart.crf --depend .\obj\usci_uart.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1014,7 +1014,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\wdt.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wdt.crf --depend .\obj\wdt.d)
+F (..\..\..\Library\StdDriver\src\wdt.c)(0x5CB83200)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wdt.crf --depend .\obj\wdt.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1065,7 +1065,7 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\..\..\Library\StdDriver\src\wwdt.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wwdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wwdt.crf --depend .\obj\wwdt.d)
+F (..\..\..\Library\StdDriver\src\wwdt.c)(0x5C872600)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wwdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wwdt.crf --depend .\obj\wwdt.d)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1116,8 +1116,10 @@ I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
-F (..\main.c)(0x5CC6C9D2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (..\main.c)(0x5CCA5ADA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1170,7 +1172,7 @@ I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
 I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
@@ -1180,12 +1182,13 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\Task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\Queue.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\list.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\list.o --list_dir ".\\lst\\" --list --omf_browse .\obj\list.crf --depend .\obj\list.d)
+I (..\CPU\cpu_utils.h)(0x5CCA4D69)
+F (..\..\..\ThirdParty\FreeRTOS\Source\list.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\list.o --list_dir ".\\lst\\" --list --omf_browse .\obj\list.crf --depend .\obj\list.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1241,13 +1244,13 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D
 I (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5C69D049)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\queue.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\queue.o --list_dir ".\\lst\\" --list --omf_browse .\obj\queue.crf --depend .\obj\queue.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\queue.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\queue.o --list_dir ".\\lst\\" --list --omf_browse .\obj\queue.crf --depend .\obj\queue.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1305,13 +1308,13 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\queue.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\tasks.c)(0x5C6B6B59)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\tasks.o --list_dir ".\\lst\\" --list --omf_browse .\obj\tasks.crf --depend .\obj\tasks.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\tasks.c)(0x5C6B6B59)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\tasks.o --list_dir ".\\lst\\" --list --omf_browse .\obj\tasks.crf --depend .\obj\tasks.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1370,12 +1373,13 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\timers.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\stack_macros.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\timers.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\timers.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timers.crf --depend .\obj\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\..\..\ThirdParty\FreeRTOS\Source\timers.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\timers.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timers.crf --depend .\obj\timers.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1434,11 +1438,11 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\queue.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\timers.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\port.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\port.o --list_dir ".\\lst\\" --list --omf_browse .\obj\port.crf --depend .\obj\port.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\port.c)(0x5C69D049)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\port.o --list_dir ".\\lst\\" --list --omf_browse .\obj\port.crf --depend .\obj\port.d)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1495,12 +1499,12 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5C69
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.c)(0x5C69D048)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\heap_4.o --list_dir ".\\lst\\" --list --omf_browse .\obj\heap_4.crf --depend .\obj\heap_4.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\portable\MemMang\heap_4.c)(0x5C69D048)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\heap_4.o --list_dir ".\\lst\\" --list --omf_browse .\obj\heap_4.crf --depend .\obj\heap_4.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1557,12 +1561,12 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5C69
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\event_groups.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\event_groups.o --list_dir ".\\lst\\" --list --omf_browse .\obj\event_groups.crf --depend .\obj\event_groups.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\event_groups.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\event_groups.o --list_dir ".\\lst\\" --list --omf_browse .\obj\event_groups.crf --depend .\obj\event_groups.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1621,11 +1625,11 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\timers.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\event_groups.h)(0x5C69D047)
-F (..\..\..\ThirdParty\FreeRTOS\Source\croutine.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\croutine.o --list_dir ".\\lst\\" --list --omf_browse .\obj\croutine.crf --depend .\obj\croutine.d)
+F (..\..\..\ThirdParty\FreeRTOS\Source\croutine.c)(0x5C69D047)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\croutine.o --list_dir ".\\lst\\" --list --omf_browse .\obj\croutine.crf --depend .\obj\croutine.d)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\..\Template\FreeRTOSConfig.h)(0x5CC6CB4D)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
 I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
 I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
@@ -1683,3 +1687,65 @@ I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\task.h)(0x5C6EE641)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
 I (..\..\..\ThirdParty\FreeRTOS\Source\include\croutine.h)(0x5C69D047)
+F (..\CPU\cpu_utils.c)(0x58042CA6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M031\Include -I ..\..\..\Library\StdDriver\inc -I ..\..\..\ThirdParty\FreeRTOS\Source\include -I ..\..\..\ThirdParty\FreeRTOS\Demo\Common\include -I ..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I ..\..\..\ThirdParty\FreeRTOS -I ..\..\Template -I ..\CPU-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\cpu_utils.o --list_dir ".\\lst\\" --list --omf_browse .\obj\cpu_utils.crf --depend .\obj\cpu_utils.d)
+I (..\CPU\cpu_utils.h)(0x5CCA4D69)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x5C872600)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872600)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872600)
+I (..\..\..\Library\CMSIS\Include\cmsis_armcc.h)(0x5C872600)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x5C872600)
+I (..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\sys.h)(0x5CB83200)
+I (..\..\..\Library\StdDriver\inc\clk.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\acmp.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\adc.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\crc.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\ebi.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\fmc.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\gpio.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\i2c.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\pdma.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\pwm.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\spi.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\hdiv.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\timer.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\uart.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\usci_spi.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\usci_uart.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\wdt.h)(0x5C872600)
+I (..\..\..\Library\StdDriver\inc\wwdt.h)(0x5C872600)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\..\Template\FreeRTOSConfig.h)(0x5CCA593C)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\..\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5C69D049)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\Task.h)(0x5C6EE641)
+I (..\..\..\ThirdParty\FreeRTOS\Source\include\list.h)(0x5C69D047)
